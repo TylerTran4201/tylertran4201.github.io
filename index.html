@@ -1,74 +1,158 @@
-
 <!DOCTYPE html>
-<html lang='en' class=''>
+<html lang="en">
 
 <head>
-
-  <meta charset='UTF-8'>
-  <title>Tran Dong Tri Card</title>
-
-  <meta name="robots" content="noindex">
-
-  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
-  <link rel="canonical" href="https://codepen.io/JavaScriptJunkie/pen/WgRBxw">
-
-  <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-d0f3648046d2aaca07bd0037b9e061a26c74a8a999b75672ad6a638cca641472.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
-<link rel="stylesheet" href="/style.css">
-<script src="/Datetime.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/style.css">
 </head>
-<body onload="renderTime();">
-    <div class="blog-slider">        
-        <div class="blog-slider__wrp swiper-wrapper">
-          <div class="blog-slider__item swiper-slide">
-            <div class="blog-slider__img">
-              <img src="/img/1.jpg" alt="">
-            </div>            
-            <div class="blog-slider__content">
-            <div id="clockDisplay" class="blog-slider__code" ></div>
-              <div class="blog-slider__title">TRAN DONG TRI</div>
-              <div class="blog-slider__text">Date of birth: 24/10/2003 <br> 
-                Home town: Nha Trang City</div>
-              <a href="https://www.facebook.com/Tylertran24" target="_blank" class="blog-slider__button">Facebook</a>
+
+<body>
+   <div class="main">
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <h1><a href="#">Studio Francesca</a></h1>
             </div>
-          </div>
-          <div class="blog-slider__item swiper-slide">
-            <div class="blog-slider__img">
-              <img src="/img/2.png" alt="">
-            </div>
-            <div class="blog-slider__content">
-              <span class="blog-slider__code"><p id="date"></p></span>
-              <div class="blog-slider__title">BTEC FPT SCHOOL</div>
-              <div class="blog-slider__text">Majors: Information Technology <br> Specialized: Software Engineer</div>
-              <a href="https://www.facebook.com/btecfpthcm/" target="_blank" class="blog-slider__button">Fanpage</a>
-            </div>
-          </div>
-          
-          <div class="blog-slider__item swiper-slide">
-            <div class="blog-slider__img">
-              <img src="/img/3.jpg" alt="">
-            </div>
-            <div class="blog-slider__content">
-              <div class="blog-slider__title">CONTACT INFORMATION</div>
-              <div class="blog-slider__text">Gmail: trandongtri.worlk@gmail.com <br> Phone Number: 0363606843. <br> Address: 483/30a Xô Viết Nghệ Tĩnh, quận Bình Thạnh, thành phố Hồ Chí Minh.</Address></div>
-              <a href="https://zalo.me/0363606843" target="_blank" class="blog-slider__button">Zalo Contact</a>
-            </div>
-          </div>
-          
+            <ul class="main-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h1>Our Photography Studio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, assumenda. Suscipit doloribus
+                laudantium laboriosam ipsum mollitia, magnam ea quam asperiores quaerat consectetur doloremque
+                reiciendis neque ratione harum delectus minus molestiae dolor saepe voluptas maiores nam animi nemo
+                ipsam. Suscipit quo optio ab provident iusto autem quam eum voluptatum quibusdam doloribus?</p>
+            <button><a href="#">Action Button</a></button>
         </div>
-        <div class="blog-slider__pagination"></div>
-      </div>
-<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
-<script  src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-638c4264-38dd-56dc-77c4-ba9cd3eb9178" crossorigin></script>
-<script src="/Script.js"></script>
+    </div>
+    <div class="element">
+        <div class="content">
+            <div class="card">
+                <h1>F</h1>
+                <h2>Respnsive <br> Design</h2>
+                <h3>Across all major devices</h3>
+            </div>
+            <div class="card">
+                <h1>H</h1>
+                <h2>Friendly <br> Documentation</h2>
+                <h3>straight to the point</h3>
+            </div>
+            <div class="card">
+                <h1>N</h1>
+                <h2>Alternate <br> Home Pages</h2>
+                <h3>Full slider, boxed or none</h3>
+            </div>
+            <div class="card">
+                <h1>K</h1>
+                <h2>Filterable <br> Portofolio</h2>
+                <h3>Isotop & PrettyPhoto</h3>
+            </div>
+        </div>
+    </div>
+    <div class="element1 element">
+        <div class="content">
+            <div class="header">
+                <h1>What we do</h1>
+            </div>
+            <div class="box_card">
+                <div class="e1card">
+                    <h1>Photography</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores soluta eligendi rerum nobis
+                        distinctio adipisci hic possimus neque vitae necessitatibus!</p>
+                    <button><a href="">Learn more</a></button>
+                </div>
+                <div class="e1card">
+                    <h1>Photography</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores soluta eligendi rerum nobis
+                        distinctio adipisci hic possimus neque vitae necessitatibus!</p>
+                    <button><a href="">Learn more</a></button>
+                </div>
+                <div class="e1card">
+                    <h1>Photography</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores soluta eligendi rerum nobis
+                        distinctio adipisci hic possimus neque vitae necessitatibus!</p>
+                    <button><a href="">Learn more</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="element2 element">
+        <div class="content">
+            <div class="header">
+                <h1>Clients</h1>
+            </div>
+            <div class="box_card">
+                <div class="e1card img_card">
+                    <a href="#"><img src="./img/btnPrevious.png" width="50px" alt=""></a>
+                </div>
+                <div class="e1card edit">
+
+                </div>
+                <div class="e1card edit">
+
+                </div>
+                <div class="e1card edit">
+
+                </div>
+                <div class="e1card edit">
+
+                </div>
+                <div class="e1card edit">
+
+                </div>
+                <div class="e1card img_card ">
+                    <a href="#"><img src="./img/btnNext.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="element3 element">
+        <div class="title">
+            <p>"Lorem ipsum, dolor sit amet reprehenderit sapiente? Tempore voluptatum id dolor eius quam ratione eum at
+                dicta voluptates error ullam minus debitis saepe, neque nobis praesentium maxime, nesciunt officiis
+                possimus, asperiores perferendis molestias!"</p>
+            <h2>--SANDRA - LA</h2>
+        </div>
+    </div>
+   </div>
+   <footer>
+    <div class="contact">
+        <div class="box">
+            <h1> About US</h1>
+            <p>Our goal is keep clients satisfied</p>
+        </div>
+        <div class="box">
+            <h1> Get Social</h1>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box">
+            <h1> NEWSLETTTER</h1>
+            <input type="text">
+        </div>
+    </div>
+    <div class="end">
+        <p class="text1">Copyright 2015 Your Agency Name</p>
+        <p class="text2">Template by WowThems.net</p>
+    </div>
+</footer>
 </body>
 
 </html>
